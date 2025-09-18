@@ -2,15 +2,21 @@
 
 A new Flutter project.
 
-## Getting Started
+# IoT-based Air Quality Prediction and Pollution Alert System  
 
-This project is a starting point for a Flutter application.
+This project is an IoT-based solution for monitoring and predicting air quality.  
+It collects sensor data (temperature, humidity, PM2.5, CO, CO2, etc.) and stores it in a MySQL database through a PHP API over HTTP.  
+Users can visualize real-time AQI values and receive pollution alerts via web or mobile applications.  
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- Real-time sensor data collection (ESP32 + sensors)  
+- Data transfer to server using HTTP requests  
+- Backend with **PHP + MySQL** for data storage and management  
+- Web dashboard for visualization and alerts  
+- AQI calculation and pollution level classification  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies
+- **Hardware**: ESP32, sensors (MQ series, DHT11, etc.)  
+- **Backend**: PHP + MySQL (HTTP communication)  
+- **Frontend**: Flutter / App 
+- **Protocols**: HTTP (POST/GET), JSON  
