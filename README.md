@@ -11,12 +11,12 @@ Users can visualize real-time AQI values and receive pollution alerts via web or
 ## Features
 - Real-time sensor data collection (ESP32 + sensors)  
 - Data transfer to server using HTTP requests  
-- Backend with **PHP + MySQL** for data storage and management  
+- Backend with **NODE EXPRESS + MONGODB** for data storage and management  
 - Web dashboard for visualization and alerts  
 - AQI calculation and pollution level classification  
 
 ## Technologies
 - **Hardware**: ESP32, sensors (MQ series, DHT11, etc.)  
-- **Backend**: PHP + MySQL (HTTP communication)  
-- **Frontend**: Flutter / App 
-- **Protocols**: HTTP (POST/GET), JSON  
+- **Backend**: NODE EXPRESS + MONGODB (HTTP communication)  
+- **Frontend**: Flutter / App : React / Web
+- **Protocols**: HTTP (POST/GET), JSON  , MQTT
