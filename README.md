@@ -5,7 +5,7 @@ A new Flutter project.
 # IoT-based Air Quality Prediction and Pollution Alert System  
 
 This project is an IoT-based solution for monitoring and predicting air quality.  
-It collects sensor data (temperature, humidity, PM2.5, CO, CO2, etc.) and stores it in a MySQL database through a PHP API over HTTP.  
+It collects sensor data (temperature, humidity, PM2.5, CO, CO2, etc.) and stores it in over HTTP.  
 Users can visualize real-time AQI values and receive pollution alerts via web or mobile applications.  
 
 ## Features
